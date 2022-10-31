@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Getting Started with Next Trip
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Its Case Study
 
-## Available Scripts
+## The steps to build and run your application.
 
-In the project directory, you can run:
+### Softwares required
 
-### `npm start`
+• NodeJS v16+
+• NPM v8+
+
+### Steps to run the project
+
+• Unzip the project
+• run npm install
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## The steps to execute provided tests.
 
-### `npm test`
+Jest based and React Testing Library have been used for test the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run test`
 
-### `npm run build`
+### List of Assumptions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+• I have choose reactjs for this case study
+• I have choose typescript for typesafety.
+• I have choose reactQuery for easy of developement and reusablity.
+• I have choose react bootstrap as desigment system for easy of developement.
+• I have attempted to code all use cases in case study
+• Since this Public API , I did not worrie about maintaining user state in broswer
+• Since requirement says Respond reasonably to browser back and forward button,
+To demoenstrate I have created seprate route , so you can test back and forward.
+• I thought of adding View Stops Button, I did not want have mutiple clicks for users
